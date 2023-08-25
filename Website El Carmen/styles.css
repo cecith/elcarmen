@@ -59,31 +59,17 @@ li {
   }
   
   /* Estilos de sección de galería */
-.img-gallery {
+ .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
-.img-container {
+.gallery img {
   width: 20%;
   padding: 5px;
   box-sizing: border-box;
-  text-align: center;
 }
 
-.img-pequena {
-  max-width: 100%;
-  height: auto;
-  border: 2px solid #000;
-  border-radius: 5px;
-}
-
-.img-container figcaption {
-  margin-top: 10px;
-  font-size: 14px;
-  color: #666;
-}
 
 /* Estilos de sección de galería para Nosotros.html */
 .nosotros-gallery {
