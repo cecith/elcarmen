@@ -58,18 +58,45 @@ li {
     text-decoration: none;
   }
   
-  /* Estilos de sección de galería */
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .gallery img {
-    width: 20%;
-    padding: 5px;
-    box-sizing: border-box;
-  }
-  
+ /* Estilos de sección de galería */
+ .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery img {
+  width: 20%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+
+/* Estilos de sección de galería para Nosotros.html */
+.nosotros-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.nosotros-gallery .img-container {
+  text-align: center;
+}
+
+.nosotros-gallery .img-pequena {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+.nosotros-gallery .img-container figcaption {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+
     /* Estilo del video */
 
         video {
